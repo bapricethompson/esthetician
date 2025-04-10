@@ -1,0 +1,170 @@
+header{
+    background-color: #D3D3D3 ;
+    margin-top:0px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    margin:0px;
+    font-family: "Karla", sans-serif;
+}
+
+a {
+    text-decoration: none; /* removes underline */
+    color: inherit;         /* makes it use the parent element's text color */
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: inherit;
+    cursor:pointer
+  }
+
+.inquire{
+    display: inline-block;
+    margin-bottom:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:fit-content;
+    border-radius: 10px;
+    background-color: #A8B9A3 ;
+} 
+
+.inquire:hover {
+    background-color: #8d9a89 ;
+}
+
+.services{
+    margin-bottom:15px;
+    text-decoration: underline;
+}
+  
+header h1{
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:10px;
+}
+
+nav{
+    width:15%;
+    margin-right:40px;
+}
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    gap:20px;
+    list-style: none;
+}
+
+#welcome{
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:40px;
+    margin-bottom:40px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#welcomeImg{
+    border-radius: 10px;
+    width:40%;
+    height:auto;
+}
+
+#welcomeText{
+    width:55%;
+    text-align: center;
+    
+}
+#welcomeText p{
+    margin-top:40px;
+    margin-bottom:40px;
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+
+#about{
+    background-color:#EFE7DD;
+}
+
+#aboutwrap{
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+#aboutText{
+    width:40%;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius:10px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:40px;
+}
+
+#aboutText p{
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+#aboutImg{
+    border-radius: 10px;
+    width:40%;
+    height:auto;
+}
+
+#testimonials{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top:40px;
+}
+
+#trio{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:30px;
+    margin-top:40px;
+
+}
+
+footer{
+    margin-top: 20px;
+    background-color:#EFE7DD ;
+    padding:10px;
+    text-align: center;
+}
+
+.revImg{
+    width:auto;
+    height: 435px;
+    border-radius:10px;
+}
+
+.revText{
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+}
